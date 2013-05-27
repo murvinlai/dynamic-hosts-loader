@@ -1,0 +1,33 @@
+{
+    "name":"dynamic-hosts-loader",
+    "version":"0.1.0",
+    "description":"Add/Remove host dynamically when there is change of the config file(s) in the specified directory",
+    "homepage":"https://github.com/murvinlai/dynamic-hosts-loader",
+    "author": {
+        "name":   "Murvin Lai",
+        "email":  "murvinlai@gmail.com"
+    },
+    "scripts":{
+
+    },
+    "dependencies":{
+        "express": ">= 3.0.0",
+        "require-loader": "0.1.0"
+    },
+    "devDependencies":{
+        
+    },
+    "keywords": [
+        "hosts",
+        "dynamic",
+        "watch",
+        "loader",
+        "dynamic hosts",
+        "dynamic domains",
+        "domains"
+    ],
+    "repository": "git://github.com/murvinlai/dynamic-hosts-loader.git",
+    "license": "MIT",
+    "main":"./index.js",
+    "engines": {    "node": "*" }
+}
